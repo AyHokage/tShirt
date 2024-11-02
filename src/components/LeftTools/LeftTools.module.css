@@ -1,0 +1,173 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    width: calc(25% - 64px);
+    font-size: 1.2rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.col {
+    margin: 0 5px;
+    font-size: 0.9rem;
+}
+
+.col .input {
+    margin: 2px 0;
+    padding: 6px;
+}
+
+.col .title {
+    margin: 2px 0;
+}
+
+.chosen {
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    width: calc(33% - 10px);
+    color: #584C59;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.container {
+    margin: 20px 10px;
+    display:  flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+}
+
+.btns {
+    margin: 10px 10px 0 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.heading {
+    color: #cd7dd4;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.title {
+    color: #584C59;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: #ff800b;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 10px 0 20px 0;
+    font-size: 1.2rem;
+}
+
+.btns .btn {
+    width: calc(33% - 10px);
+    margin: 0;
+    padding: 20px;
+}
+
+.input {
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    padding: 10px;
+    color: #584C59;
+    width: calc(100% - 22px);
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.none {
+    display: none;
+}
+
+
+
+
+
+
+/* managefiles */
+
+/* .file {
+    width: calc(25% - 64px);
+    margin: 10px;
+    display:  flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 20px;
+} */
+
+.heading {
+    color: #cd7dd4;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.title {
+    color: #584C59;
+    font-weight: 500;
+    margin: 0 0 5px 10px;
+}
+
+.img {
+    width: 100px;
+    height: 80px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.file {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+}
+
+.imgAndTitle {
+    display: flex;
+}
+
+.deleteBtn {
+    color: white;
+    border: 1px solid crimson;
+    border-radius: 6px;
+    padding: 0 6px 3px 6px;
+    background-color: crimson;
+    height: 30px;
+}
+
+/* no items */
+
+.noItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(80vh - 216px);
+    width: 100%;
+    border-radius: 15px;
+    border: 1px dashed #cbccce;
+  }
+  
+  .noItemsTitle {
+    font-size: 22px;
+    font-weight: 400;
+    color: #c9c9c9;
+  }

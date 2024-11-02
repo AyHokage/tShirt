@@ -1,0 +1,6 @@
+.cvs {
+    width: calc(80% - 2px);
+    height: 80vh;
+    margin: 10vh 10%;
+    border: 1px solid grey;
+}

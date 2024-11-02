@@ -1,0 +1,13 @@
+.canvas {
+    width: calc(50% - 2px);
+    height:  calc(80vh + 40px);
+    margin: 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
